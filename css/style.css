@@ -1,0 +1,92 @@
+
+
+body {
+    background-color: #F7F7F5;
+}
+
+.inline-block {
+display: inline-block;
+vertical-align: top; 
+}
+    
+.logo {
+width: 23%; 
+padding: 1%;   
+}
+
+.nav {
+width: 73%;
+padding: 1%;
+}
+
+.ul {
+width: 50%;
+margin-left: auto;
+}
+
+.logo{
+text-align: center;
+}
+
+
+.heroImg{
+height: 300px;
+padding: 25px;
+}
+
+.content {
+    width: 500px;
+    margin: 0;
+}
+
+.footer{
+background-color: #373738 ;
+}
+
+.ul{
+padding: center;
+display:inline-block;
+vertical-align: top;
+}
+
+.li{
+padding: center;
+display:inline-block
+}
+
+.flexContainer{
+display: flex;
+flex-direction: row;
+width: 40%;
+margin: auto;
+padding: auto;
+;
+}
+
+.workGrid {
+display: grid;
+margin-left: 20%;
+grid-template-areas: 'myArea'; 
+grid-template-columns: 100px 100px 100px;
+column-gap: 100px;
+}
+
+
+
+ @media only screen and (max-width: 600px) {
+
+.flexContainer {
+display: column;    
+width: 100%;
+}
+
+
+.workGrid {
+margin: 0px 5%;
+display: grid;
+grid-template-columns: 300px 300px 300px;
+column-gap: 100px; 
+grid-template-areas: myArea 
+
+}
+}
