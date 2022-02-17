@@ -4,7 +4,8 @@ $(document).ready(function() {
 		$(this).css("color", "blue");
 	}, 
 	function() {
-		$(this).hide();
+	
+		//$(this).hide();
 		//$(this).css("display", "none");
 	});
 
